@@ -112,24 +112,24 @@ h2, h4{
 	font-weight: 700; 
 	color: #000;
 }
-p, ul{
+p,.blog-list{
 	font-family: "Open Sans";
 	font-weight: 300;
 	font-size: 14px;
 	margin-bottom: 10px;
 }
+.blog-list{
+	margin-left: 30px;
+}
+
 p:last-child{
 	margin-bottom: 0px;
 }
 
-ul{
-	margin-left: 30px;
-}
 strong{
 	font-weight: 400;
 }
 .blog-heading{
-	
 	font-size: 34px;
 	color: #000;
 }
