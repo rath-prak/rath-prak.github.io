@@ -112,7 +112,7 @@ h2, h4{
 	font-weight: 700; 
 	color: #000;
 }
-p{
+p, ul{
 	font-family: "Open Sans";
 	font-weight: 300;
 	font-size: 14px;
@@ -120,6 +120,13 @@ p{
 }
 p:last-child{
 	margin-bottom: 0px;
+}
+
+ul{
+	margin-left: 30px;
+}
+strong{
+	font-weight: 400;
 }
 .blog-heading{
 	
