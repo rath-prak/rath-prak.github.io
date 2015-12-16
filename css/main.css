@@ -23,29 +23,29 @@ h1, h3{
 
 }
 .navigation ul{
-	width: 100%;
+	text-align: right;
 	float: right;
-	background-color: red;
+	background: rgba(255, 255, 255, .04);
+	width: 100%;
+	line-height: 50px;
 
 }
 
 .navigation ul li{
 	display: inline-block;
-	margin-right: 30px;
-	margin-top: 5px;
-	font-size: 14px;
-	font-family: "Open Sans";
-	font-weight: 400;
-	line-height: 50px;
-	text-align: right;
+
+	
+	margin-bottom: 0;
+	margin-right: 35px;
+
+	font: "Open Sans" 400 14px;
 }
 
 .navigation ul li:last-child{
-	margin-right: 50px;
 
 }
 .navigation ul li a{
-	color: rgba(255, 255, 255, .8);
+	color: rgba(255, 255, 255, .7);
 	text-decoration: none;
 	transition: .25s all linear;
 
