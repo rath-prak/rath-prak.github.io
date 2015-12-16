@@ -1,0 +1,70 @@
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/*----------Navigation----------------*/
+
+.navigation{
+	height: 30px;
+	background-color: rgba(255, 255, 255, .10);
+}
+.navigation ul{
+	list-style-type: none;
+	margin-left: 100px;
+}
+
+.navigation ul li{
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 5px;
+	float: right;
+	font-size: 18px;;
+}
+.navigation ul li a{
+	color: #262626;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: .25s all linear;
+
+}
+
+.navigation ul li a:hover{
+	color: rgba(255, 255, 255, 1);
+
+}
+
+.logo img{
+	height: 100px;
+	margin: 0 auto;
+	display: block;
+
+
+}
+
+/*----------Hero/background image----------------*/
+
+
+.hero-image{
+	background: #000 url(../images/background-2.jpg) no-repeat center center fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+  	position: absolute;
+  	top: 0; right: 0; bottom: 0; left: 0;
+  	z-index: -1;
+
+}
+
+/* Bigger than 550 */
+
+@media (min-width: 550px) {
+  .logo img{
+	height: 200px;
+	margin: 0 auto;
+	display: block;
+	}
+}
