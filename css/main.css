@@ -104,17 +104,14 @@ p:last-child{
 
 .one-third{
 	background: rgba(255, 255, 255, .6);
-	padding: 20px;
+	padding: 10px;
 	margin-bottom: 20px;
 }
 
 .one-third h4{
 	text-align: left;
 }
-.blog-heading{
-	margin-bottom: 0px;
-}
-.blog-date{
+.blog-heading, .blog-date{
 	margin-bottom: 0px;
 }
 
@@ -132,11 +129,12 @@ p:last-child{
 
 	.navigation{
 		width: 100%;
+		float: none;
+
 
 	}
 	.navigation ul{
 		text-align: center;
-		float: none;
 		
 		line-height: 50px;
 		width: 100%;
@@ -155,6 +153,11 @@ p:last-child{
 	}
 	.navigation ul li a{
 		display: block;
+
+	}
+
+	.blog-section{
+		margin-top: 235px;
 
 	}
 
