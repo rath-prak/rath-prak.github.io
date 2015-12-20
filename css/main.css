@@ -25,7 +25,10 @@ h1, h3{
 	text-align: center;
 }
 
-
+.blog-section img{
+	width: 100%;
+	text-align: center;
+}
 
 
 /*----------Navigation----------------*/
