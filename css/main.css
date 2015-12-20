@@ -25,9 +25,7 @@ h1, h3{
 	text-align: center;
 }
 
-h1{
-	font-family: "Open Sans";
-}
+
 
 
 /*----------Navigation----------------*/
@@ -53,7 +51,7 @@ h1{
 	display: inline-block;
 	margin-bottom: 0;
 	margin-right: 35px;
-	font: "Open Sans" 400 14px;
+	
 }
 
 .navigation ul li a{
@@ -72,10 +70,10 @@ h1{
 
 
 .logo img{
-	height: 200px;
+	max-width: 70%;
+	height: auto;
 	margin: 0 auto;
 	display: block;
-
 
 }
 
@@ -156,7 +154,7 @@ p:last-child{
 
 	}
 
-	.blog-section{
+	.blog-section, .blog-landing{
 		margin-top: 235px;
 
 	}
@@ -168,9 +166,7 @@ p:last-child{
 		transform: translate(-50%,-50%);
 	}
 
-	.logo img{
-		height: 100px;
-	}
+
 
 
 }
